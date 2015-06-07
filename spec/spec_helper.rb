@@ -1,3 +1,3 @@
-require_relative '../point'
-require_relative '../robot'
-require_relative '../surface'
+require_relative '../lib/point'
+require_relative '../lib/robot'
+require_relative '../lib/surface'

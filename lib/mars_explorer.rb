@@ -17,10 +17,10 @@ def explore_mars(instructions, surface)
   robots.each do |robo|
     x << robo.move + "\n"
   end
-  File.open('output.txt','w') {|f| f.write(x)}
+  File.open('../data/output.txt','w') {|f| f.write(x)}
 end
 
-ARGV.empty? ? file='input.txt': file = ARGV[0]
+ARGV.empty? ? file='../data/input.txt': file = ARGV[0]
 
 input = File.open(file,'r') {|f| f.read}.split("\n\n").collect {|k| k.split("\n")}
 coordinates = input[0].shift.split(' ').collect {|c| c.to_i}

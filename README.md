@@ -1,5 +1,28 @@
 # mars-explorers
 # Problem: Martian Robots (Coding Challenge)
+
+###Notes:
+#####To run this program via command line go to the lib dir:
+```
+run mars_explorer.rb
+#or
+ruby mars_explorer.rb  'your_file.txt'
+
+First option uses the default data as input.txt present in the data folder.
+if you change the input file, it should be formatted as shown in (sample input data/input.txt)/as shown in problem statement"
+```
+#####To run the test via command line go to the root dir(uses rspec gem):
+rspec spec
+Somethings that could be improved:
+```
+1 Add more tests
+2 Make the I/O bit more dynamic.
+3 Should be able to take input line by line as well via file
+4 Maybe rethink point vs surface class and their relation
+5 Add a UI component
+6 Expand surface class for different planets
+```
+
 # The Problem
 
 The surface of Mars can be modelled by a rectangular grid around which robots are able to move according to instructions provided from Earth. 
@@ -49,23 +72,4 @@ LLFFFLFLFL
 3 3 N LOST
 2 3 S
 ```
-###Notes:
-#####To run this program via command line:
-```
-run mars_explorer.rb 
-#or 
-ruby mars_explorer.rb  'your_file.txt'
 
-first otpion uses the default data as input.txt
-input file should be formatted as shown in sample input/as shown in problem statement"
-```
-
-Somethings that could be improved:
-```
-1 Add more tests
-2 Make the I/O bit more dynamic. 
-3 Should be able to take input line by line as well via file
-4 Maybe rethink point vs surface class and their relation
-5 Add a UI component
-6 Expand surface class for different plantes
-```
