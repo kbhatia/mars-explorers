@@ -14,14 +14,14 @@ if you change the input file, it should be formatted as shown in (sample input d
 #####To run the test via command line go to the root dir(uses rspec gem):
 rspec spec
 Somethings that could be improved:
-```
-1 Add more tests
-2 Make the I/O bit more dynamic.
-3 Should be able to take input line by line as well via file
-4 Maybe rethink point vs surface class and their relation
-5 Add a UI component
-6 Expand surface class for different planets
-```
+
+1. Add more tests
+2. Make the I/O bit more dynamic.
+3. Should be able to take input line by line as well via file
+4. Maybe rethink point vs surface class and their relation
+5. Add a UI component
+6. Expand surface class for different planets
+
 
 # The Problem
 
