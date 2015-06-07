@@ -4,7 +4,7 @@
 ###Notes:
 #####To run this program via command line go to the lib dir:
 ```
-run mars_explorer.rb
+ruby mars_explorer.rb
 #or
 ruby mars_explorer.rb  'your_file.txt'
 
