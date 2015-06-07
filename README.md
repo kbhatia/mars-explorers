@@ -15,7 +15,7 @@ if you change the input file, it should be formatted as shown in (sample input d
 ```
 rspec spec
 ```
-Somethings that could be improved:
+Some things that could be improved/rethought :
 
 1. Add more tests
 2. Make the I/O bit more dynamic.
