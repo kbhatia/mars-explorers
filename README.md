@@ -12,7 +12,9 @@ First option uses the default data as input.txt present in the data folder.
 if you change the input file, it should be formatted as shown in (sample input data/input.txt)/as shown in problem statement"
 ```
 #####To run the test via command line go to the root dir(uses rspec gem):
+```
 rspec spec
+```
 Somethings that could be improved:
 
 1. Add more tests
