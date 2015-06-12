@@ -4,8 +4,8 @@ class Surface
   @scents = []
 
   def initialize(width, height)
-    if height > 51 || width > 51 || height< 0 || width <0
-      raise ArgumentError, 'Please check height and width of the service, Range is 0-50'
+    if height > 50 || width > 50 || height< 0 || width <0
+      raise ArgumentError, 'Please check height and width of the surface, range is 0-50'
     end
       @height = height
       @width = width
