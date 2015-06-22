@@ -5,11 +5,11 @@
 #####To run this program via command line cd into the lib dir:
 ```
 ruby mars_explorer.rb
-#or
+or
 ruby mars_explorer.rb  'your_file.txt'
 
 First option uses the default data as input.txt present in the data folder.
-if you change the input file, it should be formatted as shown in (sample input data/input.txt)/as shown in problem statement"
+if you change the input file, it should be formatted as shown in input.txt/as shown in problem statement"
 ```
 #####To run the test via command line cd into the root dir(uses rspec gem):
 ```
