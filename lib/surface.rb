@@ -1,7 +1,6 @@
 class Surface
 
   attr_reader :height, :width, :scents
-  @scents = []
 
   def initialize(width, height)
     if height > 50 || width > 50 || height< 0 || width <0
