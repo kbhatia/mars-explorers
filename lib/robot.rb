@@ -15,7 +15,7 @@ class Robot
   end
 
   def move
-    self.instructions.each do |i|
+    instructions.each do |i|
       unless lost?
         move_forward if i == 'F'
         move_left if i == 'L'
